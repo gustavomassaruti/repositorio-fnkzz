@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Festejando Conexão - Campo & Cidade</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <h1>Festejando Conexão</h1>
+      <nav>
+        <ul>
+          <li><a href="#inicio">Início</a></li>
+          <li><a href="#topico1">Agricultura Familiar</a></li>
+          <li><a href="#topico2">Comida Saudável</a></li>
+          <li><a href="#topico3">Feiras Locais</a></li>
+          <li><a href="#topico4">Educação Nutricional</a></li>
+          <li><a href="#topico5">Transporte Sustentável</a></li>
+          <li><a href="#topico6">Hortas Urbanas</a></li>
+          <li><a href="#topico7">Parcerias Locais</a></li>
+          <li><a href="#topico8">Tradições Rurais</a></li>
+          <li><a href="#topico9">Tecnologia no Campo</a></li>
+          <li><a href="#topico10">Alimentação Escolar</a></li>
+          <li><a href="#topico11">Comunicação Rural</a></li>
+          <li><a href="#topico12">Ecoturismo</a></li>
+        </ul>
+      </nav>
+      <button id="toggleTheme">🌙</button>
+    </div>
+  </header>
+
+  <section id="login" class="login-section">
+    <h2>Entrar</h2>
+    <form>
+      <input type="text" placeholder="Usuário" />
+      <input type="password" placeholder="Senha" />
+      <button type="submit">Login (fictício)</button>
+    </form>
+  </section>
+
+  <main class="content">
+    <section id="inicio" class="topic">
+      <h2>Conectando Campo e Cidade</h2>
+      <p>
+        O projeto Festejando Conexão promove o diálogo entre áreas urbanas e rurais, celebrando a diversidade e interdependência dos territórios brasileiros. É uma celebração da vida no campo, com seus saberes, sabores e valores.
+      </p>
+    </section>
+
+    <!-- Repete o seguinte bloco para cada tópico -->
+    <section id="topico1" class="topic">
+      <h2>1. Agricultura Familiar</h2>
+      <p>A agricultura familiar é responsável por grande parte dos alimentos consumidos no Brasil. Fortalecê-la é investir na segurança alimentar e na valorização cultural de comunidades tradicionais.</p>
+    </section>
+
+    <section id="topico2" class="topic">
+      <h2>2. Comida Saudável</h2>
+      <p>Alimentos naturais, frescos e locais contribuem para a saúde da população. Incentivar o consumo consciente é um passo fundamental para o bem-estar coletivo.</p>
+    </section>
+
+    <section id="topico3" class="topic">
+      <h2>3. Feiras Locais</h2>
+      <p>Feiras são espaços de encontro, cultura e economia solidária. A aproximação entre produtor e consumidor cria vínculos sociais e econômicos duradouros.</p>
+    </section>
+
+    <section id="topico4" class="topic">
+      <h2>4. Educação Nutricional</h2>
+      <p>Educar para a alimentação é educar para a vida. Projetos escolares que abordam o tema contribuem para escolhas alimentares mais conscientes.</p>
+    </section>
+
+    <section id="topico5" class="topic">
+      <h2>5. Transporte Sustentável</h2>
+      <p>Levar os alimentos da roça à cidade com menor impacto ambiental é um dos pilares do desenvolvimento sustentável.</p>
+    </section>
+
+    <section id="topico6" class="topic">
+      <h2>6. Hortas Urbanas</h2>
+      <p>As hortas nas cidades aproximam os cidadãos da produção de alimentos e geram espaços de convivência e aprendizado.</p>
+    </section>
+
+    <section id="topico7" class="topic">
+      <h2>7. Parcerias Locais</h2>
+      <p>Escolas, ONGs e comunidades podem unir forças para fomentar o consumo local e sustentável.</p>
+    </section>
+
+    <section id="topico8" class="topic">
+      <h2>8. Tradições Rurais</h2>
+      <p>Resgatar e valorizar saberes populares é fundamental para manter viva a memória das comunidades do campo.</p>
+    </section>
+
+    <section id="topico9" class="topic">
+      <h2>9. Tecnologia no Campo</h2>
+      <p>A inovação e o uso de tecnologia podem melhorar a produtividade e a qualidade de vida dos agricultores.</p>
+    </section>
+
+    <section id="topico10" class="topic">
+      <h2>10. Alimentação Escolar</h2>
+      <p>Uma merenda de qualidade, feita com alimentos locais, é essencial para o desenvolvimento saudável dos estudantes.</p>
+    </section>
+
+    <section id="topico11" class="topic">
+      <h2>11. Comunicação Rural</h2>
+      <p>A voz do campo precisa ser ouvida. Fortalecer mídias rurais e comunitárias é uma forma de empoderamento social.</p>
+    </section>
+
+    <section id="topico12" class="topic">
+      <h2>12. Ecoturismo</h2>
+      <p>O turismo rural oferece experiências únicas e valoriza os modos de vida das comunidades locais.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Festejando Conexão | Campo e Cidade unidos por um futuro sustentável.</p>
+  </footer>
+
+  <script>
+    const toggle = document.getElementById("toggleTheme");
+    toggle.addEventListener("click", () => {
+      document.body.classList.toggle("dark-mode");
+    });
+  </script>
+</body>
+</html>
